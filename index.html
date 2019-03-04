@@ -8,23 +8,34 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 </head>
 <body>
 <main>
     <header>
-        <h1>Cześć! Mów mi Piotrek.</h1>
-        <h2>Poznaj mnie.</h2>
+        <div class="welcome">
+            <h1 class="title">Cześć! Mów mi Piotrek.</h1>
+            <h2 class="subtitle">Niedługo wymyśle co tu wpisać.</h2>
+        </div>
         <section class="pojemnik">
             <div class="portret">
                 <img src="face.jpg">
             </div>
             <div class="navigation">
                 <ul class="nav-bar">
-                    <li>O mnie</li>
-                    <li>Umiejętności</li>
-                    <li>Portfolio</li>
-                    <li>Kontakt</li>
+                    <li><a href="#about" class="button">O mnie</a></li>
+                    <li><a href="#skills" class="button">Umiejętności</a></li>
+                    <li><a href="#portfolio" class="button">Portfolio</a></li>
+                    <li><a href="#contact" class="button">Kontakt</a></li>
                 </ul>
+            </div>
+            <div class="social">
+                <a href="facebook.com">
+                <img alt="Facebook" src="ikony/facebook.png" width="60" height="60"></a>
+                <a href="spotify.com">
+                <img alt="Spotify" src="ikony/spotify.png" width="60" height="60"></a>
+                <a href="instagram.com">
+                <img alt="Instagram" src="ikony/instagram.png" width="60" height="60"></a>
             </div>
         </section>
     </header>
