@@ -8,7 +8,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    height: 500px;
+    height: 100vh;
     justify-content: right;
     /* border: solid;
     border-color: black; */
@@ -49,7 +49,7 @@ header{
 
 .nav-bar > li{
     display: inline-block;
-    padding: 26px 1em 26px 26px;
+    padding: 1em;
 }
 
 .welcome{
@@ -93,12 +93,14 @@ h1, h2{
     border-top-color: #6c6c6c;
     background: #6c6c6c;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .button:active {
     border-top-color: #ffffff;
     background: #ffffff;
     color: #000000;
+    text-decoration: none;
 }
 
 .social{
@@ -109,6 +111,14 @@ h1, h2{
 }
 
 .social a{
-    margin-left: 1em;
-    margin-right: 1em;
+    padding: 1em;
+    
+}
+ 
+.facebook, .spotify, .instagram{
+    transition: transform 0.2s ease-in-out;
+}
+
+.facebook:hover, .spotify:hover, .instagram:hover {
+    transform: scale(1.1);
 }
