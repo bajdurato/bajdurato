@@ -1,16 +1,80 @@
-!doctype html>
+<!doctype html>
 <html lang="pl">
 
 <head>
     <meta charset="utf-8">
-    <title>The HTML5 Herald</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
-    <link rel="stylesheet" href="css/style">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 </head>
-
 <body>
-    <script src="js/scripts.js"></script>
+<main>
+    <header>
+        <div class="welcome">
+            <h1 class="title">Cześć! Mów mi Piotrek.</h1>
+            <h2 class="subtitle">Niedługo wymyśle co tu wpisać.</h2>
+        </div>
+        <section class="pojemnik">
+            <div class="portret">
+                <img src="face.jpg">
+            </div>
+            <div class="navigation">
+                <ul class="nav-bar">
+                    <li><a href="#about" class="button">O mnie</a></li>
+                    <li><a href="#skills" class="button">Umiejętności</a></li>
+                    <li><a href="#portfolio" class="button">Portfolio</a></li>
+                    <li><a href="#contact" class="button">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank">
+                <img class="facebook" alt="Facebook" src="ikony/facebook.png" width="60" height="60"></a>
+                <a href="https://spotify.com" target="_blank">
+                <img class="spotify" alt="Spotify" src="ikony/spotify.png" width="60" height="60"></a>
+                <a href="https://instagram.com" target="_blank">
+                <img class="instagram" alt="Instagram" src="ikony/instagram.png" width="60" height="60"></a>
+            </div>
+        </section>
+    </header>
+    <div class="wrap-about">
+        <div id="about">
+            <h3>O mnie</h3>
+            <div class="about-me">
+                <div class="full-info">
+                    <ul>
+                        <li>Imię i nazwisko: Piotr Badura</li>
+                        <li>Wiek: 22 lata</li>
+                        <li>Zawód: przyszły CEO Google</li>
+                        <li>Numer kontaktowy: 123 345 678</li>
+                        <li>piotr@badura.xd</li>
+                    </ul>
+                </div>
+                <div class="text-about">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacus augue, ornare vel enim sit amet, cursus
+                    consectetur quam. Donec euismod rutrum varius. Fusce in massa non ex tempus sagittis. Curabitur posuere est mattis
+                    interdum fermentum. Phasellus iaculis pellentesque ultricies. Nullam commodo non nunc non consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <h3>Umiejętności</h3>
+            <div class="my-skills">
+            </div>
+        </div>
+    </div>
+</main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
