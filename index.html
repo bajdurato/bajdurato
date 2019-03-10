@@ -8,24 +8,24 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <title>Hello, world!</title>
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans|Monoton" rel="stylesheet">
 </head>
 <body>
 <main>
     <header>
         <div class="welcome">
-            <h1 class="title">Cześć! Mów mi Piotrek.</h1>
+        <h1 class="title">Cześć! Mów mi Piotrek.</h1>
             <h2 class="subtitle">Niedługo wymyśle co tu wpisać.</h2>
         </div>
         <section class="pojemnik">
             <div class="portret">
-                <img src="face.jpg">
+                <img src="zdjecia/face.jpg">
             </div>
             <div class="navigation">
                 <ul class="nav-bar">
                     <li><a href="#about" class="button">O mnie</a></li>
                     <li><a href="#skills" class="button">Umiejętności</a></li>
-                    <li><a href="#portfolio" class="button">Portfolio</a></li>
+                    <li><a href="#gallery" class="button">Galeria</a></li>
                     <li><a href="#contact" class="button">Kontakt</a></li>
                 </ul>
             </div>
@@ -62,6 +62,79 @@
         <div id="skills">
             <h3>Umiejętności</h3>
             <div class="my-skills">
+                <div class="txt-skills">
+                    <p>Nieograniczone</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "dogs">
+        <div id = "gallery">
+            <h3>Psialeria</h3>
+            <div class = "gallery-photos">
+                <div class="fotka">
+                    <img class="zdj1" src="pieski/1.jpg">
+                </div>
+                <div class="fotka">
+                    <img class="zdj2" src="pieski/2.jpg">
+                </div>
+                <div class="fotka">
+                    <img class="zdj3" src="pieski/3.jpg">
+                </div>
+                <div class="fotka">
+                    <img class="zdj4" src="pieski/4.jpg">
+                </div>
+                <div class="fotka">
+                    <img class="zdj5" src="pieski/5.jpg">
+                </div>
+                <div class="fotka">
+                    <img class="zdj6" src="pieski/6.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ending">
+        <div id="contact">
+            <div class="sum-up">
+                <div class="question">
+                    <p class="line"></p>
+                    <br>
+                    <p class="info">Masz pytanie? Ja odpowiem Ci na nie. Wyślij wiadomość na jedną z moich skrzynek, a na odpowiedź nie będziesz czekał do następnych dożynek.</p>
+                    <br>
+                    <p class="info">Przybyli ułani pod okienko, hakuna matata. Litwo, ojczyzno moja, nie kładź sera na pierogi, bo pójdzie w nogi. Lorem ipsum dolores que pasa si me quieres della portel taco burito, seniorita.</p>
+                </div>
+                <div class="adress">
+                    <span class="planet">3 planeta Układu Słonecznego</span>
+                    <span class="info">Europa, Polska</span>
+                    <span class="info">Wrocław</span>
+                    <span class="info">a@b.c</span>
+                </br>
+                    <div class="social-bottom">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img class="facebook" alt="Facebook" src="ikony/facebook.png" width="60" height="60"></a>
+                        <a href="https://spotify.com" target="_blank">
+                            <img class="spotify" alt="Spotify" src="ikony/spotify.png" width="60" height="60"></a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img class="instagram" alt="Instagram" src="ikony/instagram.png" width="60" height="60"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="container">
+                    <label for="first-name">Imię</label>
+                    <input type="text" id="first-name" name="f-name" placeholder="Wpisz swoje imię">
+                    <label for="last-name">Nazwisko</label>
+                    <input type="text" id="last-name" name="l-name" placeholder="A tu nazwisko">               
+                    <label for="experience">Wrażenia</label>
+                    <select id="experience" name="experience">
+                        <option value="me-gusta">Me gusta</option>
+                        <option value="ponton">Ponton</option>
+                        <option value="techno.jazz">Techno i jazz są identyczne w swojej przeciwności.</option>
+                    </select>
+                    <label for="subject">Temat</label>
+                    <textarea id="subject" name="subject" placeholder="W jakiej sprawie do mnie piszesz?" style="height:200px"></textarea>            
+                    <input type="submit" class="button" value="Wduś przycisk">
+                </div>
             </div>
         </div>
     </div>
