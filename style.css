@@ -6,6 +6,10 @@ header {
 * {
   box-sizing: border-box;
 }
+body {
+    margin: 0;
+    width: 100%;
+}
 
 .pojemnik {
   position: relative;
@@ -14,8 +18,6 @@ header {
   width: 50%;
   height: 100vh;
   justify-content: right;
-  /* border: solid;
-    border-color: black; */
   flex-direction: row;
 }
 
@@ -138,14 +140,9 @@ li,
   padding-top: 2.5em;
 }
 
-#about {
-  height: 50%;
-  width: 80vw;
-}
-
 .about-me {
+    width: 80vw;
   border: solid;
-  height: 35vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -157,7 +154,6 @@ li,
   align-items: center;
   width: 40%;
   height: 100%;
-  margin: 0;
 }
 
 .full-info li {
